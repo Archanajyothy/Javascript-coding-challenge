@@ -1,6 +1,16 @@
 //Number of segments in a string
+/* Example 1:
+   Input: s = "Hello, my name is john"
+   Output: 5
+   Explanation: The five segments are
+   ["Hello,","my","name","is","John"] 
 
-let str = "Hello, my name is john"
+   Example 2:
+   Input s = "Hello"
+   Output: 1
+*/
+
+let s = "Hello, my name is john"
 function countSegments(s){
     let ans = 0
     for (let i = 0; i < s.length; i++) {
@@ -11,4 +21,4 @@ function countSegments(s){
     }
     return ans;
 }
-console.log(countSegments(str));
+console.log(countSegments(s));
