@@ -1,3 +1,10 @@
+//Example 1:
+//Input : s = "abcd" , t = "abcde"
+//Output : "e"
+//Explanation : 'e' is the letter that was added.
+//Exampple 2:
+// Input : s = "", t = "y"
+// Output : "y"
 let s = "abcd"
 let t = "abcde"
 for(i=0;i<t.length;i++){
