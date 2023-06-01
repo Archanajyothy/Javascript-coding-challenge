@@ -1,3 +1,6 @@
+/* Input: word1 = ["ab","c"], word2 = ["a","bc"]
+Input: word1 = ["a", "cd"], word2 = ["ab","c"]
+Output: false */
 function check(word1, word2){
     str1 = word1.join('')
     str2 = word2.join('')
