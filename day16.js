@@ -1,3 +1,12 @@
+/* 
+Example 1
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+Example 2
+Input: s = "rat", t = "cat"
+Output: false
+*/
 function anagram(s, t){
     arr = []
     for(let i=0;i<s.length;i++){
@@ -14,7 +23,7 @@ function anagram(s, t){
             
         }
     }
-    console.log(arr.join(''));
+    //console.log(arr.join(''));
     if(arr.join('') === s ){
         console.log('true');
     }else{
